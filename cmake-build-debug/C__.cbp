@@ -37,8 +37,8 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/lu/CLionProjects/C--/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="C__">
-				<Option output="/Users/lu/CLionProjects/C--/cmake-build-debug/C__" prefix_auto="0" extension_auto="0"/>
+			<Target title="random">
+				<Option output="/Users/lu/CLionProjects/C--/cmake-build-debug/random" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/lu/CLionProjects/C--/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -53,14 +53,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/lu/CLionProjects/C--/cmake-build-debug/Makefile&quot;  VERBOSE=1 C__"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/lu/CLionProjects/C--/cmake-build-debug/Makefile&quot;  VERBOSE=1 random"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/lu/CLionProjects/C--/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/Users/lu/CLionProjects/C--/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/lu/CLionProjects/C--/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="C__/fast">
-				<Option output="/Users/lu/CLionProjects/C--/cmake-build-debug/C__" prefix_auto="0" extension_auto="0"/>
+			<Target title="random/fast">
+				<Option output="/Users/lu/CLionProjects/C--/cmake-build-debug/random" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/lu/CLionProjects/C--/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -75,15 +75,62 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/lu/CLionProjects/C--/cmake-build-debug/Makefile&quot;  VERBOSE=1 C__/fast"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/lu/CLionProjects/C--/cmake-build-debug/Makefile&quot;  VERBOSE=1 random/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/lu/CLionProjects/C--/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/lu/CLionProjects/C--/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/lu/CLionProjects/C--/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="patA1025">
+				<Option output="/Users/lu/CLionProjects/C--/cmake-build-debug/patA1025" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lu/CLionProjects/C--/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/lu/CLionProjects/C--/."/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/lu/CLionProjects/C--/cmake-build-debug/Makefile&quot;  VERBOSE=1 patA1025"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/lu/CLionProjects/C--/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/lu/CLionProjects/C--/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/lu/CLionProjects/C--/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="patA1025/fast">
+				<Option output="/Users/lu/CLionProjects/C--/cmake-build-debug/patA1025" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lu/CLionProjects/C--/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/lu/CLionProjects/C--/."/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/lu/CLionProjects/C--/cmake-build-debug/Makefile&quot;  VERBOSE=1 patA1025/fast"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/lu/CLionProjects/C--/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/Users/lu/CLionProjects/C--/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/lu/CLionProjects/C--/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/lu/CLionProjects/C--/test.cpp">
-			<Option target="C__"/>
+		<Unit filename="/Users/lu/CLionProjects/C--/patA1025.cpp">
+			<Option target="patA1025"/>
+		</Unit>
+		<Unit filename="/Users/lu/CLionProjects/C--/random.c">
+			<Option target="random"/>
 		</Unit>
 		<Unit filename="/Users/lu/CLionProjects/C--/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

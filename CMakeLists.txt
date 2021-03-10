@@ -5,5 +5,5 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(.)
 
-add_executable(C__
-        test.cpp)
+add_executable(patA1025 patA1025.cpp)
+add_executable(random random.c)
